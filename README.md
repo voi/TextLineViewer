@@ -3,13 +3,17 @@
 sample of C# Windows form application.
 TextLineViewer is text file viewer to show list of each line.
 
-## A command line parmeter.
+## command line
+
+using `textlineviewer.config` when command line parameter is not specified.
 
 ~~~
 TextLineViewer.exe [config-file-path]
 ~~~
 
-## A format of `[config-file-path]` is xml.
+## config file
+
+format of `[config-file-path]` is xml.
 
 ~~~xml
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
